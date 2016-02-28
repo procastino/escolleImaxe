@@ -1,5 +1,6 @@
 # escolleImaxe
 Aprendendo a programar javascript desenvolvendo unha actividade para infantil.
+
 Learning to code javascript developing an activity for kindergarten.
 
 A última versión será a que liga directamente desde esta páxina, as anteriores estarán en cartafol aparte para descargar.
