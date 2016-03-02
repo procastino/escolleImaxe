@@ -12,20 +12,17 @@
 <body>
 
 <div class="playground">
-	<p><button onclick="cambiaPalabra()">PREME PARA CAMBIAR</button></p>
-	<p><img id="imaxe" src="imaxes/cardback.png" width="600px"></p>
-		<table class="center">
-			<tr>
-				<td><div class="palabra" onclick="comprobaEsquerda()"><h1 id="palabraEsquerda">a ver que</h1></div></td>
-				<td><div class="palabra" onclick="comprobaDereita()"><h1 id="palabraDereita">sae aquí</h1></div></td>
-				</tr>
-				<tr>
-					<td><div class="palabra" onclick="comprobaEsquerda()"><h1 id="palabraEsquerda">a ver que</h1></div></td>
-					<td><div class="palabra" onclick="comprobaDereita()"><h1 id="palabraDereita">sae aquí</h1></div></td>
-					</tr>
-
-		</table>
-		<h1 id="resultado">Resultado</h1>
+<p><button onclick="comezar()">PREME PARA COMEZAR</button></p>
+<h1 id="palabra" > CAL É UN... </h1>
+<table class="center">
+	<tr>
+		<td><img src="imaxes/cardback.png" id="imaxeEsquerda" onclick="comprobaEsquerda()"></td>
+		<td><img src="imaxes/cardback.png" id="imaxeDereita" onclick="comprobaDereita()"></td>
+		</tr>
+		
+</table>
+<h1 id="resultado">Resultado</h1>
+<p id='tempo'></p>
 </div>
 <div id="instruccions">
 <p> Este é un prototipo de xogo para infantil. Trátase de que identifiquen a palabra que aparece escrita cunha das dúas imaxes que aparecen embaixo. Para comezar hai que premer no botón e logo na figura que corresponda.<br>

@@ -18,6 +18,4 @@ A última versión será a que liga directamente desde esta páxina, as anterior
 - Ciclo de preguntas definido.
 - Información de tempo con penalización por respostas mal.
 
-## v0.3
-- Unha imaxe e hai que escoller entre dúas palabras, correcta e incorrecta.
-- Avance co botón ao premer.
+
